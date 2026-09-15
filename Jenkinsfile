@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Running Test..."
-                bat 'java testfactorial'
+                bat 'java Testfactorial'
             }
         }
 
